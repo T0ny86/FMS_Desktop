@@ -1,0 +1,32 @@
+{
+  "name": "fms_desktop",
+  "version": "1.0.0",
+  "description": "Freelance Managment System, that offer client and files managing",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "build": {
+    "appId": "FMS",
+    "win": {
+      "icon": "./icon.ico"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/T0ny86/FMS_Desktop.git"
+  },
+  "author": "Tanous Atallah",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/T0ny86/FMS_Desktop/issues"
+  },
+  "homepage": "https://github.com/T0ny86/FMS_Desktop#readme",
+  "dependencies": {
+    "better-sqlite3-with-prebuilds": "^7.4.3",
+    "multi-ini": "^2.1.2"
+  },
+  "devDependencies": {
+    "electron": "^16.0.5"
+  }
+}
